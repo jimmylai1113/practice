@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>課堂練習</title>
+</head>
+<body>
+    <table border="1" width="80%" cellspacing="3" cellpadding="5"
+    <tr>
+        <th colspan="3">統一發票兌獎◆中獎號碼單</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">統一發票109年9月、10月</td>
+            <td align="center">統一發票109年7月、8月</td>
+    </tr>
+    <tr>
+        <td rowspan="3" align="center" valign="middle"</td>
+        <td align="center" valign="middle"><h2<strong>11/25(三)開獎</strong></h2></td>
+        <td align="center" valign="middle"><h2<strong>13362795</strong></h2> </td>    
+    </tr>
+    <tr>
+        <th colspan="2">八位數號碼與上列號碼相同者獎金一千萬元</th>
+    </tr>
+    <tr>
+        <td colspan="3"></td>
+    </tr>
+    </table>
+
+ <form action="">
+     <p>姓名:<input type="text" name="username" placeholder="請輸入姓名" required autofocus></p>
+     <p>搜尋:<input type="search" name="search"></p>
+     <p>信箱1:<input type="email" name "email"></p>
+     <p>信箱2:<input type="email" name "email2" ="[a-z0-9._%+-]=@[a-z0-9.-]+\.[a-z]{2,4}$"></p>
+     <p>網址:<input type="url" name "url"></p>
+     <p>電話:<input type="tel" name "tel"></p>
+     <p>數字:<input type="number" name "number" min="1" max="21" step="3"></p>
+     <p>日期:<input type="date" name "date"></p>
+     <p>時間:<input type="time" name "time"></p>
+     <p>程度:<input type="range" name "range"></p>
+     <p>顏色:<input type="color" name "color"></p>
+
+ </form>
+
+</body>
+</html>
